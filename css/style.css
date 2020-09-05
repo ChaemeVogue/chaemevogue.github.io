@@ -1,0 +1,133 @@
+/*****************************************************************************/
+/* Colours */
+/* Blue: #002f5e */
+/* Crimson: #a91639 */
+/* Purple: #662d91 */
+/* Logo Grey: #484848 */
+/*****************************************************************************/
+
+/*
+body {
+    background-color: aliceblue;
+}
+header {
+    background-color: #484848;
+}
+
+ */
+
+body {
+    background-color: #484848;
+}
+.about, .contact, .projects {
+    background-color: #575757;
+}
+
+/*****************************************************************************/
+/* Fonts */
+/*****************************************************************************/
+h1, h2, h3, h4, h5, h6, nav, th, p {
+    /* Page 28 in the Identity Guidelines */
+    font-family: Raleway, sans-serif;
+}
+h2  {
+    font-size: 1.625rem; /* to 1.75rem */
+}
+h6, nav ul li a  {
+    font-size: 1.2rem; /*1.125rem;*/
+}
+
+
+/*****************************************************************************/
+/* Header */
+/*****************************************************************************/
+header {
+    background-color: #484848;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+#logo {
+    /*width: 300px;*/
+    width: 50%;
+    /*padding: 50px;*/
+    /*margin: auto;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo{
+    /*pointer-events: none;*/
+    /*padding: 40px;*/
+    padding: 50px 20px 20px;
+}
+
+header nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1.3px;
+    color: aliceblue;
+    padding: 12px 32px;
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.5);*/
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    /*border-color: aliceblue;*/
+    font-weight: bold;
+}
+header nav a:hover {
+    background-color: rgba(255,255,255, 0.75);
+    color: #000
+}
+
+header ul, header li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*****************************************************************************/
+/* Body */
+/*****************************************************************************/
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*
+.about, .contact, .projects {
+    background-color: #d9d9d9;
+}
+ */
+
+.about, .contact, .projects {
+    text-align: center;
+    line-height: 170%;
+    letter-spacing: 1.3px;
+    padding: 15px 25px 10px;
+    margin: 20px;
+}
+
+article{
+    padding: 5px;
+    /*margin: 30px;*/
+    color: aliceblue;
+    /*border-style: solid;*/
+}
+
+/*****************************************************************************/
+/* Footer */
+/*****************************************************************************/
+footer {
+    padding: 32px 32px 64px 32px;
+}
+
+#copyright{
+    text-align: center;
+    color: black;
+    padding-top: 32px;
+    /*background-color: #777777;*/
+    margin: 15px;
+}
+
+
