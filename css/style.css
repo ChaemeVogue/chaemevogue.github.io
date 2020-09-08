@@ -6,16 +6,6 @@
 /* Logo Grey: #484848 */
 /*****************************************************************************/
 
-/*
-body {
-    background-color: aliceblue;
-}
-header {
-    background-color: #484848;
-}
-
- */
-
 body {
     background-color: #484848;
 }
@@ -27,7 +17,6 @@ body {
 /* Fonts */
 /*****************************************************************************/
 h1, h2, h3, h4, h5, h6, nav, th, p {
-    /* Page 28 in the Identity Guidelines */
     font-family: Raleway, sans-serif;
 }
 h2  {
@@ -35,6 +24,7 @@ h2  {
 }
 h6, nav ul li a  {
     font-size: 1.2rem; /*1.125rem;*/
+    font-family: Raleway-semibold, sans-serif;
 }
 
 
@@ -46,43 +36,30 @@ header {
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
 }
 
-#logo {
-    /*width: 300px;*/
-    width: 50%;
-    /*padding: 50px;*/
-    /*margin: auto;*/
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+
+
+/*****************************************************************************/
+/* Navbar */
+/*****************************************************************************/
+.navbar-nav {
+    color: #E2E8EF;
 }
 
-.logo{
-    /*pointer-events: none;*/
-    /*padding: 40px;*/
-    padding: 50px 20px 20px;
+.navbar-nav li a {
+    color: #E2E8EF!important;
+    float: right;
 }
 
-header nav a {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: 1.3px;
-    color: aliceblue;
-    padding: 12px 32px;
-    /*border-bottom: 1px solid rgba(255, 255, 255, 0.5);*/
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    /*border-color: aliceblue;*/
-    font-weight: bold;
-}
-header nav a:hover {
-    background-color: rgba(255,255,255, 0.75);
-    color: #000
+.navbar-nav a:active {
+    background-color: #3c3c3c;
 }
 
-header ul, header li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar-toggler {
+    float: right;
+}
+
+.navbar-brand img {
+    width: 110px;
 }
 
 /*****************************************************************************/
@@ -94,25 +71,18 @@ html, body {
     border: 0;
 }
 
-/*
-.about, .contact, .projects {
-    background-color: #d9d9d9;
+article {
+    color: #E2E8EF;
+    max-width: 900px;
+    margin: auto;
 }
- */
 
 .about, .contact, .projects {
     text-align: center;
     line-height: 170%;
     letter-spacing: 1.3px;
     padding: 15px 25px 10px;
-    margin: 20px;
-}
-
-article{
-    padding: 5px;
-    /*margin: 30px;*/
-    color: aliceblue;
-    /*border-style: solid;*/
+    margin: 20px 7%;
 }
 
 /*****************************************************************************/
@@ -126,7 +96,6 @@ footer {
     text-align: center;
     color: black;
     padding-top: 32px;
-    /*background-color: #777777;*/
     margin: 15px;
 }
 
