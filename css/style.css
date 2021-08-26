@@ -6,6 +6,22 @@
 /* Logo Grey: #484848 */
 /*****************************************************************************/
 
+header, footer,
+header a, footer a,
+header a:visited, footer a:visited {
+    color: #fff;
+}
+
+header {
+    background: #FC5C7D;  /* fallback for old browsers  #CE93D8 */
+    background: -webkit-linear-gradient(to bottom, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header nav.background-on {
+    background-color: #8C66B7;
+}
+
 body {
     background-color: #484848;
 }
@@ -24,42 +40,80 @@ h2  {
 }
 h6, nav ul li a  {
     font-size: 1.2rem; /*1.125rem;*/
+    /*
     font-family: Raleway-semibold, sans-serif;
+     */
+    font-family: Open Sans, Lucida Grande, Lucida Sans Unicode, Helvetica Neue, Arial, sans-serif;
 }
 
+header nav {
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+}
 
 /*****************************************************************************/
 /* Header */
 /*****************************************************************************/
 header {
-    background-color: #484848;
-    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    height: 100vh;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px; /* 50 */
 }
 
+#site-title, header nav, header .social {
+    position: relative;
+    z-index: 2;
+}
+
+#hero-container .hero-text-container {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 70px;
+    margin-bottom: 0.5em;
+}
+
+.hero-text-container .hero-text{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding-top: 50px;
+}
+
+.hero-text-container .hero-text h1 {
+    font-size: 3em;
+}
+.hero-text-container .hero-text h2 {
+    font-size: 1.4em; /* font-size: 1.625rem; */
+}
+
+header ul, header li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social a i {
+    margin-bottom:15px;
+}
 
 
 /*****************************************************************************/
 /* Navbar */
 /*****************************************************************************/
-.navbar-nav {
-    color: #E2E8EF;
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
 }
 
 .navbar-nav li a {
-    color: #E2E8EF!important;
     float: right;
-}
-
-.navbar-nav a:active {
-    background-color: #3c3c3c;
-}
-
-.navbar-toggler {
-    float: right;
-}
-
-.navbar-brand img {
-    width: 110px;
 }
 
 /*****************************************************************************/
@@ -98,5 +152,3 @@ footer {
     padding-top: 32px;
     margin: 15px;
 }
-
-

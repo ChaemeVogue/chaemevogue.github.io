@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Chaeme Vogue</title>
     <meta charset="UTF-8">
     <meta content="Chaeme Vogue" name="author"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -15,49 +14,60 @@
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/responsive.css" rel="stylesheet"/>
-
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- JS Scripts -->
+    <script src="js/show_on_scroll.js"></script>
 
 </head>
 <body>
 <header>
-
-    <div class="video-navbar-container">
-        <video class="video-background" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="img/ocean-dusk.mp4" type="video/mp4">
-        </video>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#"><img alt="Chaeme Vogue" id="logo-nav" src="img/logo-no-bg.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="mountain" id="hero-container">
+        <div class="hero-text-container">
+            <div class="hero-text animate__animated animate__zoomInDown animate__slow">
+                <h1>Hi, I'm Chaeme</h1>
+                <h2>Toronto based developer</h2>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">Chaeme Vogue</a>
+            <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler"
+                    data-target="#navbarNav" data-toggle="collapse" type="button">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-section">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#projects-section">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#contact-section">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/ChaemeVogue" target="_blank">
+                            <i aria-hidden="true" class="fa fa-github" title="GitHub"></i>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="https://www.linkedin.com/in/chaemevogue/" target="_blank">
+                            <i aria-hidden="true" class="fa fa-linkedin-square" title="LinkedIn"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-
-
 </header>
 <article>
-    <section class="about">
+    <section class="about" id="about-section">
         <h2>ABOUT ME</h2>
         <p>
             A little about me <br>
@@ -71,14 +81,14 @@
         </p>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects-section">
         <h2>PROJECTS</h2>
         <p>
             my projects down below!
         </p>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact-section">
         <h2>CONTACT ME</h2>
         <p>
             email me or check out my socials!
