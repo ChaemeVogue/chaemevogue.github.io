@@ -13,8 +13,8 @@ header a:visited, footer a:visited {
 }
 
 header {
-    background: #FC5C7D;  /* fallback for old browsers  #CE93D8 */
-    background: -webkit-linear-gradient(to bottom, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #FC5C7D; /* fallback for old browsers  #CE93D8 */
+    background: -webkit-linear-gradient(to bottom, #6A82FB, #FC5C7D); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -25,6 +25,7 @@ header nav.background-on {
 body {
     background-color: #484848;
 }
+
 .about, .contact, .projects {
     background-color: #575757;
 }
@@ -35,10 +36,12 @@ body {
 h1, h2, h3, h4, h5, h6, nav, th, p {
     font-family: Raleway, sans-serif;
 }
-h2  {
+
+h2 {
     font-size: 1.625rem; /* to 1.75rem */
 }
-h6, nav ul li a  {
+
+h6, nav ul li a {
     font-size: 1.2rem; /*1.125rem;*/
     /*
     font-family: Raleway-semibold, sans-serif;
@@ -80,7 +83,7 @@ header {
     margin-bottom: 0.5em;
 }
 
-.hero-text-container .hero-text{
+.hero-text-container .hero-text {
     text-align: center;
     margin-left: 15px;
     margin-right: 20px;
@@ -90,6 +93,7 @@ header {
 .hero-text-container .hero-text h1 {
     font-size: 3em;
 }
+
 .hero-text-container .hero-text h2 {
     font-size: 1.4em; /* font-size: 1.625rem; */
 }
@@ -101,7 +105,7 @@ header ul, header li {
 }
 
 .social a i {
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 
@@ -146,7 +150,7 @@ footer {
     padding: 32px 32px 64px 32px;
 }
 
-#copyright{
+#copyright {
     text-align: center;
     color: black;
     padding-top: 32px;

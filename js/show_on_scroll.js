@@ -1,9 +1,9 @@
 // on scroll fade content in
-$(window).scroll(function() {
+$(window).scroll(function () {
     var scroll = $(window).scrollTop();
     let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches; // 760px
-    if (!isMobile){
-        if (scroll >= 250){
+    if (!isMobile) {
+        if (scroll >= 250) {
             $(".fade-in").addClass("appear");
         }
     }
@@ -15,7 +15,7 @@ $(window).scroll(function() {
 
 
 // header background is on once the user has scrolled past the hero image
-$(window).scroll(function() {
+$(window).scroll(function () {
     var scroll = $(window).scrollTop();
     let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
     // if mobile, header background is always on
