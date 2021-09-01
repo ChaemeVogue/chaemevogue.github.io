@@ -10,7 +10,6 @@
         background-position: center center;
         background-size: cover;
         margin: 0;
-
         transition: background 0.2s linear;
     }
 
@@ -40,30 +39,9 @@
 /* Some tablets and larger (768px) */
 /*****************************************************************************/
 @media only screen and (min-width: 768px) {
-    .video-navbar-container {
-        position: relative;
-        background-color: #484848;
-        height: 75vh;
-        min-height: 25rem;
-        width: 100%;
-        overflow: hidden;
+    .flex-container {
+        flex-direction: row;
     }
-
-    .video-background {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        width: 100%;
-        height: auto;
-        z-index: 0;
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-    }
-
 }
 
 /*****************************************************************************/
