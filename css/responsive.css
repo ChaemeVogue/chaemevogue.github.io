@@ -5,20 +5,27 @@
     .mountain {
         position: relative;
         height: 100vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/teahub.io-pink-sky-wallpaper-3231386.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/pink-sky-mountains.jpeg");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
         margin: 0;
-        transition: background 0.2s linear;
+        /*transition: background-image 0.7s;*/
     }
 
     .mountain.dark {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/darkmode-retrowave-wallpapers.jpg");
+        background-image: url("../img/night-time-mountains.jpeg");
     }
 
+    /*
     .hero-text-container {
         margin-top: 30px;
+    }
+
+     */
+
+    #hero-container .hero-text-container{
+        height: 30vh; /*70vw*/
     }
 
     #hero-container .hero-text {
@@ -33,7 +40,22 @@
     #hero-container .hero-text h2 {
         font-size: 1.625em;
     }
+
+    #overlay {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #000;
+
+        opacity: 0;
+        transition: opacity 0.4s linear;
+    }
 }
+
+
 
 /*****************************************************************************/
 /* Some tablets and larger (768px) */

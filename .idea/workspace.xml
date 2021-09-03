@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/darkmode-retrowave-wallpapers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/teahub.io-pink-sky-wallpaper-3231386.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +119,7 @@
       <workItem from="1629660759709" duration="3830000" />
       <workItem from="1629829974701" duration="6207000" />
       <workItem from="1630091427772" duration="1393000" />
-      <workItem from="1630457390862" duration="3445000" />
+      <workItem from="1630457390862" duration="20349000" />
     </task>
     <task id="LOCAL-00001" summary="Updated header including navbar and new hero image">
       <created>1630007632150</created>
@@ -140,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630458344072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated about section and minor changes to the body including a fade-in effect">
+      <created>1630461929702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630461929702</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +170,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated header including navbar and new hero image" />
     <MESSAGE value="rename html file to index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename html file to index.html" />
+    <MESSAGE value="Updated about section and minor changes to the body including a fade-in effect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated about section and minor changes to the body including a fade-in effect" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

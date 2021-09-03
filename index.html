@@ -22,9 +22,12 @@
 
 </head>
 <body>
-<header>
+<header id="hdr">
+
     <div class="mountain" id="hero-container">
+
         <div class="hero-text-container">
+
             <div class="hero-text animate__animated animate__zoomInDown animate__slow">
                 <h1>Hi, I'm Chaeme</h1>
                 <h2>Toronto based developer</h2>
@@ -52,6 +55,14 @@
 
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item">
+                        <input class="checkbox" id="chk" type="checkbox"/>
+                        <label class="label" for="chk">
+                            <div class="ball"></div>
+                            <div class="ball2"></div>
+                        </label>
+                    </li>
+
+                    <li class="nav-item">
                         <a class="nav-link" href="https://github.com/ChaemeVogue" target="_blank">
                             <i aria-hidden="true" class="fa fa-github" title="GitHub"></i>
                         </a>
@@ -64,17 +75,24 @@
                 </ul>
             </div>
         </nav>
+
+        <script src="js/darkmode_toggle.js"></script>
+    </div>
+    <div id="overlay">
     </div>
 </header>
 <div class="container">
     <div class="fade-in">
         <section class="sections" id="about-section">
-            <h2> Hi, I'm Chaeme </h2>
+            <h2> About Me </h2>
             <p> Currently a recent Computer Science grad from Queen's University with a specialization in software
                 design. For a couple years now I have taken an interest in front-end development. More recently,
                 my drive for learning has lead me to further develop my back-end skills server side in order to become
                 more well rounded in my skill set to further my pursuit of becoming a full stack developer. </p>
+        </section>
 
+        <section class="sections" id="skills-section">
+            <h2> My Skills </h2>
             <p> During my undergraduate studies I had the the opportunity to work on many projects and develop
                 a variety of skills. </p>
             <div class="flex-container">
@@ -94,7 +112,7 @@
         </section>
 
         <section class="sections" id="projects-section">
-            <h2>PROJECTS</h2>
+            <h2>MY PROJECTS</h2>
             <p>
                 my projects down below!
             </p>

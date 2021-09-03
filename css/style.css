@@ -1,9 +1,9 @@
 /*****************************************************************************/
 /* Colours */
-/* Blue: #002f5e */
-/* Crimson: #a91639 */
-/* Purple: #662d91 */
-/* Logo Grey: #484848 */
+/* Header Purple: #8C66B7 */
+/* Black: #121212 */
+/* Grey: #24222e */
+/* Lighter Grey: #2e293d */
 /*****************************************************************************/
 
 header, footer,
@@ -13,20 +13,51 @@ header a:visited, footer a:visited {
 }
 
 header {
-    background: #FC5C7D; /* fallback for old browsers  #CE93D8 */
-    background: -webkit-linear-gradient(to bottom, #6A82FB, #FC5C7D); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(140,102,183);
+    background: linear-gradient(180deg, rgba(140,102,183,1) 26%, rgba(208,92,166,1) 53%, rgba(252,92,125,1) 100%);
+    transition: background 0.3s linear;
 }
 
-header nav.background-on {
+header.dark {
+    background: rgb(18,18,18);
+    background: linear-gradient(180deg, rgba(18,18,18,1) 26%, rgba(27,26,32,1) 53%, rgba(36,34,46,1) 100%);
+}
+
+header nav.background-on, footer {
     background-color: #8C66B7;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+body.dark, body.dark footer{
+    /*background-color: #0a1014; #0d0906*/
+    background-color: #121212;
+
+}
+
+body.dark header nav.background-on {
+    background-color: #121212;
 }
 
 body {
     background-color: #F5F1F8;
+    transition: background 0.3s linear;
 }
+
+
+body.dark h2, body.dark h4, body.dark h5, body.dark h6, body.dark p{
+    color: #FFFFFF;
+}
+
 .sections {
     background-color: #fff;
+    transition: background 0.3s linear;
+}
+
+.sections.dark{
+    background-color: #0a1014;
 }
 
 /*****************************************************************************/
@@ -61,7 +92,7 @@ header a {
 /*****************************************************************************/
 header {
     height: 100vh;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);*/
     margin-bottom: 5px; /* 50 */
 }
 
@@ -107,17 +138,71 @@ header ul, header li {
     margin-bottom: 15px;
 }
 
-
-/*****************************************************************************/
-/* Navbar */
-/*****************************************************************************/
-.navbar-dark .navbar-nav .nav-link {
-    color: white;
+/*** toggle dark mode ***/
+.checkbox {
+    opacity: 0;
+    position: absolute;
 }
 
-.navbar-nav li a {
-    float: right;
+.checkbox:checked + .label .ball{
+    transform: translateX(-25px);
 }
+
+.checkbox:checked + .label .ball2{
+    transform: translateX(22px);
+}
+
+.label {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    overflow: hidden;
+}
+
+.label:hover {
+    border-color: lightgrey;
+}
+
+.label .ball:hover{
+    background-color: #fff;;
+}
+
+.label .ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    height: 18px;
+    width: 18px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.label .ball2 {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    height: 18px;
+    width: 18px;
+    transform: translateX(50px);
+    transition: transform 0.2s linear;
+}
+
 
 /*****************************************************************************/
 /* Body */
@@ -132,32 +217,27 @@ html {
     scroll-behavior: smooth;
 }
 
-/*
-article {
-    max-width: 900px;
-    margin: auto;
-}
-
- */
-
 .sections {
-    line-height: 170%;
-    letter-spacing: 1.3px;
-    /*
-    padding: 15px 25px 10px;
-    margin: 20px 7%;
-     */
-}
-
-.sections {
+    transition: background 0.3s linear;
     background-color: #fff;
     -moz-box-shadow: 0 0 7px rgba(0,0,0,0.20);
     -webkit-box-shadow: 0 0 7px rgba(0,0,0,0.20);
     box-shadow: 0 0 7px rgba(0,0,0,0.20);
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 30px 25px 15px; /* 60px 25px 25px; */
     margin-bottom: 30px;
+
+    line-height: 170%;
+    letter-spacing: 1.3px;
 }
+
+/*
+.sections.dark{
+    -moz-box-shadow: 0 0 7px rgba(0,0,0, 0.40);
+    -webkit-box-shadow: 0 0 7px rgba(0,0,0, 0.40);
+    box-shadow: 0 0 7px rgba(0,0,0, 0.40);
+}
+ */
 
 .fade-in {
     opacity: 0;
@@ -170,6 +250,7 @@ article {
 
 .container{
     padding-top: 30px;
+    /*margin-top: -500px;*/
 }
 
 #col_1 {
@@ -200,7 +281,6 @@ footer {
 
 #copyright {
     text-align: center;
-    color: black;
     padding-top: 32px;
     margin: 15px;
 }
