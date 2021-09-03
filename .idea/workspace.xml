@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f847b66-801a-4ed2-8158-38a19cd12e85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/darkmode-retrowave-wallpapers.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/teahub.io-pink-sky-wallpaper-3231386.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +115,7 @@
       <workItem from="1629660759709" duration="3830000" />
       <workItem from="1629829974701" duration="6207000" />
       <workItem from="1630091427772" duration="1393000" />
-      <workItem from="1630457390862" duration="20349000" />
+      <workItem from="1630457390862" duration="21237000" />
     </task>
     <task id="LOCAL-00001" summary="Updated header including navbar and new hero image">
       <created>1630007632150</created>
@@ -149,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630461929702</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added dark mode plus minor changes to about section">
+      <created>1630707709322</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630707709323</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +174,8 @@
     <MESSAGE value="Updated header including navbar and new hero image" />
     <MESSAGE value="rename html file to index.html" />
     <MESSAGE value="Updated about section and minor changes to the body including a fade-in effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated about section and minor changes to the body including a fade-in effect" />
+    <MESSAGE value="Added dark mode plus minor changes to about section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dark mode plus minor changes to about section" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -47,8 +47,12 @@ body {
 }
 
 
-body.dark h2, body.dark h4, body.dark h5, body.dark h6, body.dark p{
+body.dark h2, body.dark h4, body.dark h5, body.dark h6{
     color: #FFFFFF;
+}
+
+body.dark p{
+    color: #FFFFFFD8;
 }
 
 .sections {
@@ -57,7 +61,7 @@ body.dark h2, body.dark h4, body.dark h5, body.dark h6, body.dark p{
 }
 
 .sections.dark{
-    background-color: #0a1014;
+    background-color: #212121;
 }
 
 /*****************************************************************************/
