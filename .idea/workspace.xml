@@ -7,6 +7,7 @@
     <list default="true" id="4f847b66-801a-4ed2-8158-38a19cd12e85" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +116,7 @@
       <workItem from="1629660759709" duration="3830000" />
       <workItem from="1629829974701" duration="6207000" />
       <workItem from="1630091427772" duration="1393000" />
-      <workItem from="1630457390862" duration="21237000" />
+      <workItem from="1630457390862" duration="24335000" />
     </task>
     <task id="LOCAL-00001" summary="Updated header including navbar and new hero image">
       <created>1630007632150</created>
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630707709323</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Changed some dark mode colours">
+      <created>1630708632225</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630708632225</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +183,8 @@
     <MESSAGE value="rename html file to index.html" />
     <MESSAGE value="Updated about section and minor changes to the body including a fade-in effect" />
     <MESSAGE value="Added dark mode plus minor changes to about section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dark mode plus minor changes to about section" />
+    <MESSAGE value="Changed some dark mode colours" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed some dark mode colours" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

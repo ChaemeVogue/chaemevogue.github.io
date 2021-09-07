@@ -235,13 +235,20 @@ html {
     letter-spacing: 1.3px;
 }
 
-/*
-.sections.dark{
-    -moz-box-shadow: 0 0 7px rgba(0,0,0, 0.40);
-    -webkit-box-shadow: 0 0 7px rgba(0,0,0, 0.40);
-    box-shadow: 0 0 7px rgba(0,0,0, 0.40);
+.sections.dark {
+    -moz-box-shadow: 0 0 7px rgba(0,0,0,0.40);
+    -webkit-box-shadow: 0 0 7px rgba(0,0,0,0.40);
+    box-shadow: 0 0 7px rgba(0,0,0,0.40);
 }
- */
+
+#contact-section a, #contact-section a:visited {
+    color: #8C66B7; /* #0f3151 */
+    font-weight: bold;
+}
+
+#contact-section.dark a, #contact-section.dark a:visited {
+    color: #3376B6; /* #0f3151 */
+}
 
 .fade-in {
     opacity: 0;
